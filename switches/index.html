@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>Switch | GUI Challenges</title>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="deeppink" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="Canvas" media="(prefers-color-scheme: dark)">
+  <meta name="description" content="🙂">
+  <link rel="stylesheet" href="/style.css">
+  <script type="module" src="/index.js"></script>
+</head>
+
+<body>
+  <section>
+    <h2>States</h2>
+
+    <label for="switch-1" class="gui-switch">
+      Default
+      <input type="checkbox" role="switch" id="switch-1">
+    </label>
+
+    <label for="switch-3" class="gui-switch">
+      Indeterminate
+      <input type="checkbox" role="switch" id="switch-3">
+      <script>document.getElementById('switch-3').indeterminate = true</script>
+    </label>
+
+    <label for="switch-4" class="gui-switch">
+      Disabled
+      <input type="checkbox" role="switch" id="switch-4" disabled>
+    </label>
+
+    <label for="switch-5" class="gui-switch">
+      Disabled (checked)
+      <input type="checkbox" role="switch" id="switch-5" disabled checked>
+    </label>
+
+    <label for="switch-vertical" class="gui-switch -vertical">
+      Vertical
+      <input type="checkbox" role="switch" id="switch-vertical">
+    </label>
+
+  </section>
+</body>
+
+</html>
